@@ -1,0 +1,37 @@
+{
+  "name": "commandcode-herdr-status",
+  "version": "0.1.0",
+  "description": "Command Code lifecycle status for Herdr Desktop over OSC 7501",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "keywords": [
+    "cmd-mod",
+    "herdr",
+    "osc7501"
+  ],
+  "commandcode": {
+    "mods": [
+      "./src/herdr-status.ts"
+    ]
+  },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node test/status.test.mjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holiveiraa/commandcode-herdr-status.git"
+  },
+  "homepage": "https://github.com/holiveiraa/commandcode-herdr-status#readme",
+  "bugs": {
+    "url": "https://github.com/holiveiraa/commandcode-herdr-status/issues"
+  }
+}
